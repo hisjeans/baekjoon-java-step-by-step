@@ -10,9 +10,9 @@ public class Main{
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
         String str=br.readLine();
         StringTokenizer st=new StringTokenizer(str," ");
-        int A=Integer.parseInt(st.nextToken());
-        int B=Integer.parseInt(st.nextToken());
-        int C=Integer.parseInt(st.nextToken());
+        long A=Long.parseLong(st.nextToken());
+        long B=Long.parseLong(st.nextToken());
+        long C=Long.parseLong(st.nextToken());
         System.out.println(A+B+C);
     }
 }
